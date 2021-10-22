@@ -57,27 +57,3 @@ function CryptoOverview () {
 }
 
 export default CryptoOverview;
-
-
-// export default class App extends React.Component {
-//     render() {
-//       return (
-//         <div>
-//           <Line
-//             data={state}
-//             options={{
-//               title:{
-//                 display:true,
-//                 text:'Average Rainfall per month',
-//                 fontSize:20
-//               },
-//               legend:{
-//                 display:true,
-//                 position:'right'
-//               }
-//             }}
-//           />
-//         </div>
-//       );
-//     }
-//   }
