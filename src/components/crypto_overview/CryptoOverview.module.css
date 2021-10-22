@@ -1,0 +1,14 @@
+.header {
+    color: white;
+}
+
+/* .jss139 {
+    width: 100%;
+    z-index: 0;
+} */
+
+.card {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgb(45, 39, 85);
+}
