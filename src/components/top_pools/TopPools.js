@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { useHistory } from 'react-router';
 import React from 'react'
 import classes from './TopPools.module.css'
-import { tsMappedType } from '@babel/types';
 import _ from 'lodash'
 const columns = [
     {

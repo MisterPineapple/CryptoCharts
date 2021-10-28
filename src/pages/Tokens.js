@@ -1,6 +1,8 @@
+import TopTokens from '../components/top_tokens/TopTokens';
+
 function TokensPage () {
     return(
-        <div className="header">Tokens</div>
+        <TopTokens />
     )
 }
 

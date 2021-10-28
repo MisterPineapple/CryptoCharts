@@ -1,6 +1,8 @@
+import TopPools from '../components/top_pools/TopPools';
+
 function PoolsPage () {
     return(
-        <div className="header">Pools</div>
+        <TopPools />
     )
 }
 
