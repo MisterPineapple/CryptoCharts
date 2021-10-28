@@ -1,7 +1,11 @@
-.cryptoOverviewLayout {
+.cryptoOverviewDetailLayout {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 15px;
+}
+
+.priceOverview {
+    color: white;
 }
 
 .headerRow {
@@ -10,23 +14,20 @@
 }
 
 .card {
+    height: 450px;
     padding: 16px;
     border-radius: 16px;
     border-width: 0px;
     background-color: rgb(45, 39, 85);
 }
 
-.cardText {
+.cryptoInformation{
     color: #c3c5cb;
     font-size: 16px;
 }
 
-.cardTextAmount {
-    color: white;
-    font-size: 30px;
+.cryptoDetails{
+    color:white;
+    font-size: 24px;
 }
 
-.cardTextDate {
-    color: #c3c5cb;
-    font-size: 14px;
-}

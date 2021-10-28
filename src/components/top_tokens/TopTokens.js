@@ -2,6 +2,7 @@ import { Row, Card, Col, Table} from 'antd';
 import { useEffect, useState } from 'react';
 import { useHistory } from 'react-router';
 import React from 'react'
+import classes from './TopTokens.module.css'
   
 const columns = [
     {
@@ -16,10 +17,9 @@ const columns = [
     {
       title: 'Tokens',
       dataIndex: 'name',
-    //   key: 'name',
       render: (text, row, index) => {
         return <Row>
-            <img style={{width: 25, height: 25, marginRight: 10}} src={row.image}/>
+            <img className={classes.logo} src={row.image}/>
             <p>{text}</p>
             <p style={{marginLeft: 5}}>({row.symbol})</p>
         </Row>;
@@ -35,6 +35,11 @@ const columns = [
       dataIndex: 'price',
       key: 'price',
     },
+    {
+      title:'Valume (24h)',
+      dataIndex: 'volume_24h',
+      key: 'volume_24h',
+    }
 ];
 
 const injectIndex = (tokenData) => {
@@ -44,7 +49,6 @@ const injectIndex = (tokenData) => {
             ...data,
         }
     })
-
     return mapped;
 }
 
@@ -72,13 +76,13 @@ const TopTokens = () => {
         }
     }
     return (
-        <div style={{marginLeft: 30, marginRight: 30}}>
+        <div className={classes.topTokensLayout}>
             <Row>
-                <p style={{color: 'white'}}>Top Tokens</p>
+                <p className={classes.headerRow}>Top Tokens</p>
             </Row>
             <Row>
                 <Col span={24}>
-                    <Card bodyStyle={{backgroundColor: 'white'}}>
+                    <Card className={classes.card}>
                     {tokenData && <Table onRow={onRow} dataSource={tokenData} columns={columns} />}
                     </Card>
                 </Col>

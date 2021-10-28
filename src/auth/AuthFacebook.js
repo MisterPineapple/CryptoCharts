@@ -1,12 +1,11 @@
 import React from 'react'
 import { signInWithFacebook } from '../service/firebase'
-import { Button } from 'antd'
+import facebook from '../img/facebook_logo.png';
+import classes from './AuthFacebook.module.css';
 
 function AuthFacebook() {
     return (
-        <div>
-            <Button type="primary" onClick={signInWithFacebook}>Facebook</Button>
-        </div>
+        <img className={classes.logo} src={facebook} alt="facebook" onClick={signInWithFacebook}/>
     )
 }
 

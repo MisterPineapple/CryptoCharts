@@ -1,0 +1,29 @@
+.loginButton {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.cancelButton {
+    width: 40%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: #ddd;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancelButton:hover {
+  border: 1px solid #231d4b;
+  color: white;
+  background-color: #231d4b;
+}
+

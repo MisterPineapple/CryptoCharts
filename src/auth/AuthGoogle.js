@@ -1,12 +1,11 @@
 import React from 'react'
 import { signInWithGoogle } from '../service/firebase'
-import { Button } from 'antd'
+import google from "../img/google_logo.png";
+import classes from './AuthGoogle.module.css';
 
 function AuthGoogle() {
     return (
-        <div>
-            <Button type="primary" onClick={signInWithGoogle}>Google</Button>
-        </div>
+        <img className={classes.logo} src={google} alt="google" onClick={signInWithGoogle}/>
     )
 }
 

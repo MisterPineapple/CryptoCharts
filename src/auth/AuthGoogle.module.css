@@ -1,0 +1,7 @@
+.logo {
+    width: 50px;
+    cursor: pointer;
+    height: 50px;
+    margin: 24px 8px 24px 24px;
+    transition: all 0.3s;
+}

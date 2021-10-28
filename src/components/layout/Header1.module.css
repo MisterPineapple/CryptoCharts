@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    padding-left: 16px;
+    flex-direction: row;
+    background-color: rgb(23, 15, 52);
+    height: 45px;
+}
+
+.countUp{
+    cursor: pointer;
+    display: flex;
+    padding: 2px 4px 2px 3px;
+    font-size: 11px;
+    align-items: center;
+    margin-right: 16px;
+    padding-left: 3px;
+    border-radius: 4px;
+    flex-direction: row;
+    background-color: rgb(45, 39, 85);
+    color: white;
+}
+
+.countUp::before {
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    content: "";
+    display: block;
+    border-radius: 50%;
+    background-color: #39d98a;
+}
+
+.price {
+    color:white;
+}
+
+.logIn{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: end;
+    padding: 50px;
+}

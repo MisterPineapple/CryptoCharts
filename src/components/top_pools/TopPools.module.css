@@ -1,0 +1,23 @@
+.topPoolsLayout {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.headerRow {
+    color: #c3c5cb;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 16px 16px 0px 16px;
+    border-radius: 16px;
+    border-width: 0px;
+    background-color: rgb(45, 39, 85);
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px,
+}

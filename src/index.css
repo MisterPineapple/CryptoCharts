@@ -2,15 +2,111 @@
 @import '~antd/dist/antd.css';
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Inter",sans-serif!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #231d4b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ant-card-body {
+  padding: 24px 24px 0px 24px;
+}
+
+.ant-modal-header  { 
+  background-color: #000021 !important; 
+  border-bottom-width: 0px;
+  text-align: center;
+} 
+
+.ant-modal-title {
+  color:white;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.ant-modal-footer  { 
+  background-color: #000021 !important; 
+  border-top-width: 0px;
+  text-align: center;
+} 
+
+.ant-modal-body  { 
+  background-color: #000021 !important;
+  text-align: center;
+} 
+
+.ant-table-tbody {
+  background-color: rgb(45, 39, 85);
+  color: white;
+}
+
+.ant-table-thead > tr > th {
+  background: rgb(45, 39, 85);
+  color: #c3c5cb;
+  font-size: 16px
+}
+
+.ant-table-thead > tr > th {
+  border-bottom-color: #231d4b;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom-color: #231d4b;
+}
+
+.ant-table .ant-table-tbody > tr:hover > td {
+  background: rgb(45, 39, 85);
+  opacity: 0.5;
+}
+
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  background-color: rgb(45, 39, 85);
+  border: 0px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.ant-table-pagination-right {
+  justify-content: center;
+}
+
+.ant-pagination-item {
+  background-color: rgb(45, 39, 85);
+  border: 0px;
+}
+
+
+.ant-pagination-item-active a {
+  color: white;
+}
+
+.ant-select-selection-search {
+  background-color: rgb(45, 39, 85);
+}
+
+.ant-select-selection-item {
+  background-color: rgb(45, 39, 85);
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  position: relative;
+    background-color: rgb(45, 39, 85);
+    border: 0px;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+.ant-select-selection-item {
+  color: white;
+}
+
+.ant-select-arrow {
+  color: white;
 }

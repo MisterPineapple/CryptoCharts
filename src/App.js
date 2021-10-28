@@ -1,5 +1,4 @@
 import { Route, Switch } from 'react-router-dom';
-import { useState, useEffect } from 'react';
 
 import Layout from './components/layout/Layout';
 import OverviewPage from './pages/Overview';
@@ -7,28 +6,14 @@ import PoolsPage from './pages/Pools';
 import TokensPage from './pages/Tokens';
 import './index.css';
 import CryptoOverviewDetail from './components/crypto_overview/CryptoOverviewDetail';
+import Header1 from './components/layout/Header1';
 import React from 'react';
-import Login from './components/login/Login';
-import firebase from './service/firebase'
 
 function App() {
-  // const [userState, setUser] = useState();
-
-  // useEffect(() => {
-  //   firebase.auth().onAuthStateChanged(user => {
-  //     if(user){
-  //       setUser(user)
-  //     }
-  //   })
-  // }, [])
-
-  // console.log(userState);
 
   return (
   <React.Fragment>
-    <div>
-      <Login />
-    </div>
+    <Header1 />
     <Layout>
       <Switch>
         <Route path='/' exact>
